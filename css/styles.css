@@ -103,9 +103,9 @@ header section {
   border: 1px solid;
 }
 
-input[type="button"] {
+button[type="submit"] {
   width: 30%;
-  padding: 2.4%;
+  padding: 2.3%;
   font-weight: 700;
   color: #fff;
   background-color: hsl(224, 93%, 58%);
@@ -116,7 +116,7 @@ input[type="button"] {
   transition: all 0.25s ease;
 }
 
-input[type="button"]:hover {
+button[type="submit"]:hover {
   background-color: hsl(224, 93%, 65%);
 }
 
@@ -224,7 +224,7 @@ input[type="button"]:hover {
   font-size: 0.75rem;
 }
 
-.access input[type="button"] {
+.access button[type="submit"] {
   width: 35%;
   padding: 3%;
 }
@@ -354,7 +354,7 @@ footer .nav-links a:hover {
     margin-right: 0;
   }
 
-  input[type="button"] {
+  button[type="submit"] {
     margin-top: 15px;
     width: 50%;
   }
@@ -429,7 +429,7 @@ footer .nav-links a:hover {
     padding: 2%;
   }
 
-  .access input[type="button"] {
+  .access button[type="submit"] {
     margin-top: 0;
     width: 50%;
     padding: 2%;
@@ -490,7 +490,7 @@ footer .nav-links a:hover {
     padding: 3%;
   }
 
-  input[type="button"] {
+  button[type="submit"] {
     width: 85%;
     padding: 4%;
     font-size: .8rem;
@@ -527,7 +527,7 @@ footer .nav-links a:hover {
     padding: 3%;
   }
 
-  .access input[type="button"] {
+  .access button[type="submit"] {
     width: 80%;
     padding: 3%;
     font-size: .7rem;
@@ -560,7 +560,7 @@ footer .nav-links a:hover {
     width: 100%;
   }
 
-  input[type="button"] {
+  button[type="submit"] {
     width: 100%;
   }
 
