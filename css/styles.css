@@ -468,13 +468,13 @@ footer .nav-links a:hover {
   }
 }
 
-@media (max-width: 376px) {
-  h1 {
-    font-size: 1.52rem;
+@media (max-width: 426px) {
+  h2 {
+    font-size: 1.7rem;
   }
 
-  h2 {
-    font-size: 1.2rem;
+  nav img {
+    width: 30%;
   }
 
   nav ul {
@@ -485,48 +485,15 @@ footer .nav-links a:hover {
     font-size: .9rem;
   }
 
-  nav img {
-    width: 30%;
-  }
-
-  .intro-img img {
-    margin-top: 30px;
-    width: 100%;
-  }
-
   .title-box input[type="email"] {
-    width: 100%;
+    width: 85%;
     padding: 3%;
   }
 
   input[type="button"] {
-    width: 100%;
+    width: 85%;
     padding: 4%;
     font-size: .8rem;
-  }
-
-  .content-img img {
-    width: 90%;
-  }
-
-  .content h1 {
-    font-size: 1.2rem;
-  }
-
-  .content .box-1 {
-    margin-top: 70px;
-  }
-
-  .content .box-1 p {
-    font-size: .95rem;
-  }
-
-  .content .box-1 a {
-    font-size: .8rem;
-    display: flex;
-    align-items: center;
-    width: 40%;
-    margin: 10px auto;
   }
 
   .profile-card {
@@ -535,8 +502,16 @@ footer .nav-links a:hover {
     margin: 40px auto;
   }
   
+  .content .box-1 a {
+    font-size: .8rem;
+    display: flex;
+    align-items: center;
+    width: 35%;
+    margin: 10px 0;
+  }
+
   .profile-card p {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
   }
 
   .access {
@@ -556,5 +531,61 @@ footer .nav-links a:hover {
     width: 80%;
     padding: 3%;
     font-size: .7rem;
+  }
+}
+
+@media (max-width: 376px) {
+  h1 {
+    font-size: 1.52rem;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+
+  header .nav-links {
+    font-size: .9rem;
+  }
+
+  nav img {
+    width: 30%;
+  }
+
+  .intro-img img {
+    margin-top: 30px;
+    width: 100%;
+  }
+
+  .title-box input[type="email"] {
+    width: 100%;
+  }
+
+  input[type="button"] {
+    width: 100%;
+  }
+
+  .content-img img {
+    width: 90%;
+  }
+
+  .content h1 {
+    font-size: 1.2rem;
+  }
+
+  .content .box-1 {
+    margin-top: 70px;
+  }
+
+  .content .box-1 p {
+    font-size: .95rem;
+  }
+
+  .content .box-1 a {
+    width: 40%;
+    margin: 10px auto;
+  }
+  
+  .profile-card p {
+    font-size: 0.7rem;
   }
 }
